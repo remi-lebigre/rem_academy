@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ===== DECLARATIONS GLOBALES ===== */
+body {
+    font-family:verdana,arial,sans-serif;
+    font-size:1em;
+    background:url(images/body_bg.png) repeat-x 0 86px;
+}
+#wrapper {
+    width:714px;
+    margin:30px auto 0;
+    position:relative;
+}
+h1 b,h2 b {
+    color:#AFA58F;
+}
+.green {
+    color:#A7AA25;
+    font-weight:bold;
+}
+.read {
+    color:gray;
+}
+:hover.read {
+    color:red;
+}
+#news > h1,#recipes > h1 {
+    color:#EB5024;
+    font-size:150%;
+    margin-bottom:14px;
+    padding-bottom:12px;
+    border-bottom:1px dotted gray;
+}
+
+/* ===== HEADER ===== */
+#header {
+    min-height:266px;/* on fixe un minimum imposé mais pas de maximum. Le conteneur peut s'agrandir si besoin */
+    background:url(images/header_bg.png) no-repeat 0 5px;
+    padding-top:59px;
+    padding-left:390px;
+}
+#header h1 {
+    font-family:helvetica,sans-serif;
+    font-size:280%;
+    color:#F1F0F0;
+    letter-spacing:-1px;
+    text-shadow:1px 1px 1px #333333;/* La première valeur s'applique horizontalement, de la gauche vers la droite, la seconde valeur s'applique verticalement, du haut vers le bas, la troisième valeur concerne la diffusion, le flou, la portée de l'ombre. Si valeur = 0, on applique dans tous les sens. */
+    margin-bottom:30px;
+    text-transform:capitalize;
+}
+#header h2 {
+    color:#EB5024;
+    font-size:150%;
+    margin-bottom:20px;
+}
+#header h2 span {
+    text-transform:uppercase;
+}
+#header p {
+    font-size:86%;
+    color:#AFA58F;
+    line-height:1.2;
+}
+
+/* ===== MAIN MENU ===== */
+#main-menu {
+    position:absolute;
+    right:-34px;
+    top:0;
+}
+#main-menu h1 {
+    position:absolute;
+    left:-5000px;
+}
+#main-menu li {
+    display:inline-block; /* On transmets les propriétés des éléments inline mais en conservant celles des blocs */
+    margin-right:34px;
+}
+#main-menu a {
+    color:#AFA58F;
+    text-decoration:none;
+    font-size:86%;
+    background:url(images/puce.png) no-repeat 50% 0;
+    padding-top:16px;
+}
+#main-menu a:hover {
+    background-position:50% 10px;
+}
+
+/* ===== NEWS ===== */
+#news {
+    width:174px;
+    display:inline-block;
+    vertical-align:top;
+    padding:0 28px;
+}
+#news ul {
+    font-size:80%;
+    color:gray;
+}
+#news li {
+    margin-bottom:12px;
+    background:url(images/puce.png) no-repeat 0 2px;
+    padding-left:17px;
+}
+#news li h1 {
+    margin-bottom:3px;
+}
+#news li a {
+    color:#A7AA25;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* ===== RECIPES ===== */
+#recipes {
+    width:423px;
+    display:inline-block;
+    padding:0 28px;
+    border-left:1px dotted gray;
+    margin-bottom:12px;
+}
+#recipes article {
+    padding-top:12px;
+    display:inline-block;
+    vertical-align:top;
+}
+#recipe1 {
+    width:201px;
+    padding-right:15px;
+}
+#recipe2 {
+    width:192px;
+    padding-left:15px;    
+}
+#recipes article h1 {
+    position:absolute;
+    left:-5000px;
+}
+#recipes img {
+    float:left;
+    margin-right:15px;
+}
+#recipes p {
+    font-size:86%;
+    color:#AFA58F;
+    line-height:1.2;
+}
+#recipe1 h1 + p + h2 + p,#recipe2 h1 + p + h2 + p {
+    font-size:72%;
+    margin-bottom:40px;
+}
+#recipes h2 {
+    color:#A7AA25;
+    font-weight:bold;
+    font-size:76%;
+    margin-bottom:2px;
+}
+
+/* ===== FOOTER ===== */
+#footer {
+    text-align:center;
+}
+#corporate {
+    padding:16px 0;
+    background-color:#9A9075;
+}
+#corporate h1 {
+    position:absolute;
+    left:-5000px;    
+}
+#corporate li {
+    display:inline-block;
+    border-right:1px solid white;
+    padding:2px 4px;
+}
+#corporate li:last-child {
+    border:none;
+}
+#corporate li a {
+    color:white;
+    text-decoration:none;
+    font-size:76%;
+    font-weight:bold;
+}
+#footer p {
+    color:gray;
+    font-size:72%;
+    padding-top:20px;
+}

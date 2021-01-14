@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'spe';
+    src: url(../fonts/font.txt);
+}
+
+.container {
+    max-width: 960px;
+    font-family: 'spe', sans-serif;
+}
+
+/*-----BG COLORS-----*/
+#bgheader {
+    border-top: 5px solid rgba(189, 180, 152, 0.53);
+    background: rgba(227, 225, 188, 0.76);
+}
+
+#bgsection {
+    border-top: 5px solid rgba(189, 180, 152, 0.53);
+    background: rgba(227, 225, 188, 0.76);
+}
+
+#bgaside {
+    background: rgb(206, 204, 171);
+}
+/*-----NAV-----*/
+
+em strong {
+    color: #a20000;
+    line-height: 80px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+nav a {
+    padding: 21px 67px;
+    border-left: 2px solid white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    padding: 17px 67px;
+    border-top: 5px solid rgb(184, 182, 153);
+    background: rgb(206, 204, 171);
+    text-decoration: none;
+    color: white;
+}
+
+nav li:last-child a {
+    border-right: 2px solid white;
+
+}
+
+.container:first-child .row .col-md-2 {
+    line-height: 50px;
+}
+
+/*-----a LINKS-----*/
+nav a {
+    color: black;
+}
+
+section a, aside a, footer a {
+    color: #bf0000;
+    text-decoration: underline;
+    line-height: 25px;
+    display: block;
+    padding-left: 20px;
+    background: url(../img/puce.png) no-repeat 0 9px;
+    font-size: 0.9em;
+}
+
+aside a:last-child {
+    color: #48110f;
+    padding: 0;
+}
+
+form, form a {
+    color: white;
+}
+
+footer a {
+    display: inline-block;
+}
+
+/*-----HEADER-----*/
+header{
+    height:300px;
+}
+header img{
+}
+
+.row:first-child .col-md-2 {
+    color: white;
+    background: #a20000;
+    font-size: 1.6em;
+    margin-top: 27px;
+    border: 2px solid white;
+    width: 180px;
+
+}
+
+.row:first-child .col-md-6 {
+    width: 450px;
+
+}
+
+
+header .col-md-5 {
+    padding-top: 60px;
+}
+
+header p {
+    color: #a20000;
+    font-size: 1.3em;
+    line-height: 30px;
+}
+
+header p:nth-child(even) {
+    color: black;
+}
+
+header p:nth-child(2), header p:nth-child(3) {
+    font-size: 4em;
+    line-height: 50px;
+}
+
+header p:nth-child(3), header p:nth-child(4) {
+    text-indent: 60px;
+}
+
+/*-----SECTION-----*/
+section {
+    padding-bottom: 30px;
+}
+
+section h2 {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-top: 30px;
+}
+
+section h3 {
+    color: #48110f;
+    margin-bottom: 20px;
+}
+
+section img, section img + p, section img + p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section p a {
+    background: none;
+    padding: 0;
+}
+
+section img {
+    margin: 15px 15px 0 0;
+}
+
+section article:nth-child(2) a {
+    background: none;
+    padding: 0;
+}
+
+fieldset {
+    background: #a20000 !important;
+    width: 90%;
+    padding: 10px !important;
+    border-radius: 3px;
+    margin: 10px 0 !important;
+}
+
+form label {
+    display: block;
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+input[type="submit"] {
+    background: #ff930a;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 10px !important;
+}
+
+form a {
+    background: none;
+    padding: 0;
+}
+
+/*-----ASIDE-----*/
+
+aside h2 {
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 20px 0;
+}
+
+aside article a:last-child {
+    background: none;
+    padding: 15px 0 20px 0 !important;
+}
+
+/*-----FOOTER-----*/
+footer {
+    line-height: 50px;
+}
+
+footer a {
+    background: none;
+    padding: 0;
+}

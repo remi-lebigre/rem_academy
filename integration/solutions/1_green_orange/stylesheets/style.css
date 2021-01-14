@@ -1,0 +1,164 @@
+body{
+    font-family:Helvetica, Arial, sans-serif;
+    width:600px;
+    margin:auto;
+}
+
+
+#bloc1 h4
+{
+    display:block;
+    color:lightgray;
+    position:relative;
+    bottom:-50px;
+    left:98px;
+    font-weight:normal;
+
+}
+#bloc1 h5
+{
+    display:block;
+    color:darkgrey;
+    font-size:1.8em;
+    text-transform: uppercase;
+    position:relative;
+   left:100px;
+    font-weight:normal;
+
+}
+h1
+{
+    margin-bottom: 0px;
+}
+h1, h3, #color2
+{
+    color:#FFBA00;
+    font-weight:normal;
+}
+h2, #color1, .puce
+{
+    color:#7FBF2D;
+}
+h2
+{
+    font-size:0.8em;
+}
+p{
+    font-size:0.6em;
+}
+footer
+{
+    text-align:right;
+    position:relative;
+    right:10px;
+}
+
+
+#bloc1
+{
+    border-bottom:2px solid #7FBF2D;
+    display:inline-block;
+    width:100%;
+    background:url(../images/header_bg.png) no-repeat 80px 10px;
+
+}
+
+ul{
+    position:relative;
+    text-align:right;
+    bottom:-16px;
+    right:90px;
+}
+li{
+    display:inline-block;
+    background-color: #7FBF2D;
+    padding:3px 20px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+a{
+    text-decoration: none;
+    color:white
+}
+#logo1
+{
+    position:relative;
+    top:75px;
+    left:80px;
+}
+
+
+
+#bloc2, #bloc3
+{
+    display:inline-block;
+    vertical-align: top;
+}
+#bloc2
+{
+    width:30%;
+    padding-left:20px;
+
+}
+#trait
+{
+display:inline-block;
+position:relative;
+top:30px;
+width:1%;
+height:200px;
+
+border-right:1px solid lightgrey;
+}
+#bloc3
+{
+    width:60%;
+    margin-left:20px;
+}
+#logo3
+{
+    display:inline-block;
+    vertical-align: top;
+
+}
+
+#logo1:hover
+{
+    left:30px;
+    -webkit-transition: left 1s ease-in-out;
+}
+
+#txtbloc3
+{
+    display:inline-block;
+    vertical-align: top;
+    width:65%;
+}
+#txtbloc3 h2, #txtbloc3 p
+{
+position:relative;
+    top:-10px;
+    width:250px;
+    margin-left:10px;
+}
+
+.puce{
+    background-color: #EDEDED;
+    border-radius: 0px 10px 10px 0px;
+    padding-right:80px;
+    font-size:0.7em;
+    font-weight:bold;
+    padding-left:5px;
+    position:relative;
+    left:-3px;
+}
+#puce{
+    position:relative;
+    top:1px;
+}
+
+table
+{
+    position:relative;
+    top:10px;
+}

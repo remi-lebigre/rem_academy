@@ -1,0 +1,256 @@
+body {
+    background: url(../images/bg_1.jpg) repeat-x, url(../images/bg_2.jpg);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav p, nav form, #navbuttons {
+    display: inline-block;
+    line-height: 52px;
+}
+
+nav ul, nav li {
+    display: inline-block;
+}
+
+nav li {
+    padding: 0 10px;
+}
+
+nav ul + ul, form {
+    float: right;
+}
+
+nav, header, footer {
+    color: rgba(139, 139, 139, 1)
+}
+
+nav ul li + li {
+    border-left: 1px solid white;
+}
+
+#navbuttons a {
+    padding-right: 5px;
+}
+
+nav form {
+    border-radius: 20px;
+    background: black;
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+
+nav input {
+    position: relative;
+    top: -12px;
+    left: 10px;
+    width: 80%;
+    line-height: 20px;
+}
+
+nav button {
+    position: relative;
+    top: -8px;
+}
+
+nav button, nav input {
+    background: black;
+    border: none;
+}
+
+header ul {
+    float: right;
+}
+
+header li {
+    display: inline-block;
+}
+
+#wrapbody {
+    background: url(../images/bg.png) repeat-y;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+#wrapbody:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    top: -20px;
+    left: 0;
+    background: url(../images/block_bg.png);
+}
+
+#wrapbody:after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+    background: url(../images/block_bg.png);
+}
+
+section h1 {
+
+    line-height: 20px;
+}
+
+section h2 {
+    border-top: 1px dotted grey;
+    color: rgb(65, 155, 174);
+
+}
+
+section a {
+    color: rgb(65, 155, 174);
+    font-weight: bold;
+
+}
+
+section article:nth-last-child(2) {
+    border-bottom: 1px dotted grey;
+    margin-bottom: 20px;
+}
+
+section img {
+    border: 5px solid lightgrey;
+    box-shadow: 0 0 1px black;
+    margin: 15px 0;
+}
+
+.tags p, .tags ul, .tags li {
+    display: inline-block;
+}
+
+.tags ul {
+    float: right;
+
+}
+
+.tags li a, section article:last-child a {
+    color: white;
+    background: rgb(65, 155, 174);
+
+}
+
+.tags li a:hover, section article:last-child a:hover {
+    background: rgba(31, 83, 98, 1);
+}
+
+.tags p {
+    background: url(../images/icon_tag.jpg) no-repeat 0 50%;
+    line-height: 60px;
+    padding-left: 30px;
+}
+
+section article:last-child {
+    background: rgba(0, 0, 0, 0.13);
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    padding: 10px;
+
+}
+
+section article:last-child a, section article:last-child ul, section article:last-child li {
+    display: inline-block;
+}
+
+section article:last-child li a {
+    background: rgba(31, 83, 98, 1);
+    padding: 10px 15px;
+}
+
+section article:last-child li a:hover {
+    background: rgb(65, 155, 174);
+}
+
+aside h2 {
+    color: white;
+    line-height: 50px;
+}
+
+aside article img {
+    display: block;
+    margin: auto;
+    padding: 15px 0;
+}
+
+aside span {
+    float: right;
+}
+
+aside article:last-child a {
+    display: inline-block;
+}
+
+footer {
+    clear: both;
+}
+
+footer section {
+    margin: 0;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer #footersection1 article {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer #footersection1 article h2 {
+    color: rgb(238, 240, 245);
+    line-height: 50px;
+}
+
+footer img {
+    float: left;
+    border: 5px solid #585858;
+    margin: 5px;
+}
+
+footer #footersection2 p, footer #footersection2 ul, footer #footersection2 li {
+    display: inline-block;
+}
+
+footer #footersection2 ul {
+    margin-left: 100px;
+}
+
+footer #footersection2 li + li {
+    border-left: 1px solid white;
+}
+
+footer #footersection2 li {
+    padding: 0 5px;
+
+}
+
+#footersection1 span {
+    color: white;
+}
+
+#footersection1 article:last-child {
+    background: url(../images/bg_twitter.jpg) no-repeat 0 15px;
+}
+
+#twitter a {
+    color: rgba(216, 250, 255, 1);
+}
+
+#twitter p, #twitter em, #twitter strong {
+    color: rgba(8, 204, 255, 1);
+}
+
+#twitter em {
+    font-style: normal;
+}

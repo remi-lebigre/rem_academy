@@ -1,0 +1,177 @@
+
+@media (min-width: 768px){
+.container{
+    width:960px;
+}}
+@media (max-width: 480px){
+    .container{
+        width:480px;
+    }
+}
+.no-padding{
+    padding:0 !important;
+}
+body{
+    background: url(../img/bg-body.jpg);
+    overflow-x: hidden;
+    border-top: 3px solid black;
+
+    font-family: 'arvo', sans-serif;
+}
+body:before{
+    content:"";
+    position:absolute;
+    top:3px;
+    left:0;
+    width:100%;
+    border-top: 3px solid orangered;
+}
+
+nav{
+    margin-top:30px;
+
+    margin-bottom: 30px;
+}
+h2, h3,{
+    font-weight: bold;
+}
+
+ol li{
+    position:relative;
+    top:60px !important;
+    background:dimgrey !important;
+}
+ol li.active{
+    background: black !important;
+}
+.navbar{
+    min-height:30px !important;
+}
+.navbar a{
+    padding-top:3px !important;
+}
+.navbar-inverse{
+    height:30px !important;
+}
+#myCarousel{
+    margin-bottom: 50px;
+}
+a.right.carousel-control{
+    display:none;
+}
+a.left.carousel-control{
+    display:none;
+}
+header h2{
+    font-size:1.5em;
+}
+span{
+    color: orangered;
+}
+section h2{
+    color:white;
+    background: #292929;
+    font-size:1.2em;
+    line-height:40px;
+    padding-left:10px;
+    margin-bottom:25px;
+}
+#section1 figure{
+    padding-bottom:45px;
+}
+#section1 figcaption{
+    background:white;
+    padding:10px 0;
+    text-align: center;
+}
+#section1 figcaption h3{
+    color: orangered;
+}
+#section2 h3{
+    font-weight:bold;
+    font-size:1.2em;
+}
+#section2 img{
+    width:100% !important;
+}
+#myCarousel1{
+    margin-bottom:15px;
+}
+footer{
+    background: #292929;
+    color:white;
+    margin-top:40px;
+    padding-bottom: 15px;
+}
+.icon{
+    height:47px;
+    width:52px;
+    padding:0;
+    cursor: pointer;
+    display:inline-block;
+}
+#icon1{
+    background:url(../img/social-icons.png) no-repeat;
+}
+#icon2{
+    background:url(../img/social-icons.png)-50px 0 no-repeat;
+}
+#icon3{
+    background:url(../img/social-icons.png)-100px 0 no-repeat;
+}
+#icon4{
+    background:url(../img/social-icons.png)-150px 0 no-repeat;
+}
+#icon1:hover{
+    background-position: 0 -47px !important;
+}
+#icon2:hover{
+    background-position: -50px -47px !important;
+}
+#icon3:hover{
+    background-position: -100px -47px !important;
+}
+#icon4:hover{
+    background-position: -150px -47px !important;
+}
+footer article h2 {
+    margin-bottom: 20px;
+}
+footer article p {
+    font-size:0.8em;
+}
+.latestposts{
+    padding-bottom:10px;
+    border-bottom:2px dotted #808080;
+}
+footer article:last-child img{
+    width:23%;
+    height:auto;
+    padding-bottom:5px;
+    cursor: pointer;
+
+}
+#footerbg2{
+    background: #171717 !important;
+    height:40px;
+    margin-top:50px;
+}
+#footerbg2 p{
+    line-height:40px;
+}
+footer h2{
+    font-size:1.2em;
+}
+footer em{
+    font-weight:bold;
+}
+#nav2 {
+    background:none !important;
+    border:none !important;
+    position:relative;
+    top:10px;
+    left:140px;
+}
+#nav2 a{
+    padding:0 2px !important;
+}
